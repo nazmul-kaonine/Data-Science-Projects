@@ -1,4 +1,4 @@
--- create OMDB --
+-- create OMDB by Nazmul Kaonine --
 -----------------
 -- drop tables --
 drop table albums force;
@@ -213,7 +213,7 @@ review_table_type(review_type('George','17-SEP-2019','Good dancing music.',3)),4
 
 select * from albums
 
-Give album title, album release date and album price of all Neil Young’s albums released after 1st January 2015. (2 marks) 
+Give album title, album release date and album price of all Neil YoungÂ’s albums released after 1st January 2015. (2 marks) 
  
  select a.albumTitle, a.albumReleaseDate, a.albumPrice
  from albums a, table(a.albumArtists)e
