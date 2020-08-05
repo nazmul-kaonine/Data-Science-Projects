@@ -1,0 +1,1 @@
+This project focuses on an online music libray implemented on SQL on an Oracle Server. This relational database includes creation of tables and views, insertion, modification, deletion of tables and data, queries and methods, etc.
